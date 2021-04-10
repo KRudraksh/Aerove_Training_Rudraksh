@@ -8,6 +8,6 @@ c=x.transpose()
 z=np.matmul(c,x)
 a=np.linalg.inv(z)
 b=np.matmul(a,c)
-f=np.matmul(b,y)
+theta=np.matmul(b,y)
 
-print(f)
+print(theta)

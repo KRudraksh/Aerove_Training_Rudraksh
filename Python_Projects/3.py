@@ -13,13 +13,13 @@ class Complex:
         print(self.r*self.r + self.i*self.i)
 
     def add(self,a):
-        sum = Complex(self.r+a.r, self.i+a.i)
+        return Complex(self.r+a.r, self.i+a.i)
 
     def subtract(self,b):
-        diff = Complex(self.r-b.r, self.i-b.i)
+        return Complex(self.r-b.r, self.i-b.i)
 
     def multiply(self,c):
-        product = Complex(self.r*c.r - self.i*c.i, self.r*c.i + self.i*c.r)
+        return Complex(self.r*c.r - self.i*c.i, self.r*c.i + self.i*c.r)
 
     def inverse(self):
         inv = Complex(self.r, -self.i)

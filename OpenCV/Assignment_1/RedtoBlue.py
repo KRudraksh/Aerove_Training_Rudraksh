@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-path=r'/home/rudy-001/git_workspace/Aerove_Training_Rudraksh/OpenCV/Original.jpeg'
+path=r'/home/rudy-001/git_workspace/Aerove_Training_Rudraksh/OpenCV/Assignment_1/Original.jpeg'
 frame=cv2.imread(path)
 
 cv2.imshow('Original',frame)

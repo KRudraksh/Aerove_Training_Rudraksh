@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 
-<robot name="umic_bot" xmlns:xacro="https://www.ros.org/wiki/xacro" >
+<robot name="bot_main" xmlns:xacro="https://www.ros.org/wiki/xacro" >
 
   <xacro:include filename="$(find umic)/urdf/materials.xacro"/>
   <xacro:include filename="$(find umic)/urdf/umic_gazebo.xacro"/>
